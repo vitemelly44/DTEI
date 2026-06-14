@@ -5,6 +5,8 @@ import devicesImg from "@/assets/devices.jpg";
 import programsImg from "@/assets/programs.jpg";
 import entrepreneurImg from "@/assets/entrepreneur.jpg";
 
+const publicBase = import.meta.env.BASE_URL;
+
 export const Route = createFileRoute("/news")({
   head: () => ({
     meta: [
@@ -27,7 +29,7 @@ const posts = [
 ];
 
 const downloads = [
-  { title: "DTEI Concept Paper (Draft)", type: "PDF · Draft", href: "/DTEI-CONCEPT_PAPER-Draft.pdf" },
+  { title: "DTEI Concept Paper (Draft)", type: "PDF · Draft", href: `${publicBase}DTEI-CONCEPT_PAPER-Draft.pdf` },
   { title: "DTEI Annual Report 2025", type: "PDF · 4.2 MB" },
   { title: "Strategic Plan 2025–2028", type: "PDF · 2.1 MB" },
   { title: "Program Guide for Community Hubs", type: "PDF · 1.6 MB" },

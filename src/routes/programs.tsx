@@ -3,6 +3,8 @@ import { PageHeader, Section, Eyebrow } from "@/components/section";
 import { GraduationCap, Smartphone, Building2, TrendingUp, Megaphone, CheckCircle2 } from "lucide-react";
 import programsImg from "@/assets/programs.jpg";
 
+const publicBase = import.meta.env.BASE_URL;
+
 export const Route = createFileRoute("/programs")({
   head: () => ({
     meta: [
@@ -10,7 +12,7 @@ export const Route = createFileRoute("/programs")({
       { name: "description", content: "Digital skills training, smartphone access, community hubs, entrepreneurship, and policy advocacy." },
       { property: "og:title", content: "DTEI Programs & Projects" },
       { property: "og:description", content: "Training, devices, hubs, entrepreneurship, and advocacy programs." },
-      { property: "og:image", content: "/og-programs.jpg" },
+      { property: "og:image", content: `${publicBase}og-programs.jpg` },
     ],
   }),
   component: Programs,

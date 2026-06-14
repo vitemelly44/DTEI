@@ -8,7 +8,8 @@ export const getRouter = () => {
   const router = createRouter({
     routeTree,
     context: { queryClient },
-    history: createBrowserHistory({ base: "/DTEI" }),
+    basepath: "/DTEI",
+    history: createBrowserHistory(),
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   });

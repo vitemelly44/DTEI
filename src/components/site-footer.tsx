@@ -1,13 +1,15 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Linkedin, Twitter, Mail } from "lucide-react";
 
+const publicBase = import.meta.env.BASE_URL;
+
 export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-primary text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-1">
           <div className="flex items-center gap-2.5">
-            <img src="/logo.jpg" alt="DTEI logo" className="h-9 w-9 rounded-md object-cover" />
+            <img src={`${publicBase}logo.jpg`} alt="DTEI logo" className="h-9 w-9 rounded-md object-cover" />
             <span className="font-display text-base font-bold">DTEI</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">

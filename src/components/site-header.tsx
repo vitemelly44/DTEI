@@ -12,13 +12,15 @@ const nav = [
   { to: "/contact", label: "Contact" },
 ] as const;
 
+const publicBase = import.meta.env.BASE_URL;
+
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/85 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-5 lg:px-8">
         <Link to="/" className="flex items-center gap-2.5" onClick={() => setOpen(false)}>
-          <img src="/logo.jpg" alt="DTEI logo" className="h-9 w-9 rounded-md object-cover" />
+          <img src={`${publicBase}logo.jpg`} alt="DTEI logo" className="h-9 w-9 rounded-md object-cover" />
           <span className="font-display text-base font-bold tracking-tight">DTEI</span>
         </Link>
         <nav className="hidden items-center gap-7 lg:flex">

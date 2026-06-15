@@ -3,8 +3,6 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, GraduationCap, Shield, Smartphone, Sparkles, Users, Quote } from "lucide-react";
 import heroImg from "@/assets/hero.jpg";
 import programsImg from "@/assets/programs.jpg";
-import devicesImg from "@/assets/devices.jpg";
-import entrepreneurImg from "@/assets/entrepreneur.jpg";
 import { Section, Eyebrow } from "@/components/section";
 
 export const Route = createFileRoute("/")({
@@ -141,25 +139,8 @@ function Index() {
       <Section>
         <Eyebrow>Latest news</Eyebrow>
         <h2 className="mt-4 max-w-2xl text-balance text-3xl font-bold tracking-tight md:text-4xl">Stories from the ground.</h2>
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
-          {[
-            { img: devicesImg, tag: "Devices", title: "500 refurbished smartphones distributed in Kisumu", date: "May 2026" },
-            { img: entrepreneurImg, tag: "Mentorship", title: "How Amina built her tailoring business on M-Pesa", date: "April 2026" },
-            { img: programsImg, tag: "Training", title: "New community digital hub opens in Machakos", date: "March 2026" },
-          ].map((n) => (
-            <article key={n.title} className="group overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-1 hover:shadow-soft">
-              <div className="aspect-[16/10] overflow-hidden">
-                <img src={n.img} alt={n.title} loading="lazy" width={1280} height={800} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              </div>
-              <div className="p-5">
-                <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                  <span className="rounded-full bg-accent/20 px-2.5 py-0.5 font-semibold uppercase tracking-wider text-accent-foreground">{n.tag}</span>
-                  <span>{n.date}</span>
-                </div>
-                <h3 className="mt-3 font-display text-lg font-semibold leading-snug">{n.title}</h3>
-              </div>
-            </article>
-          ))}
+        <div className="mt-12 rounded-2xl border border-border bg-card p-8 text-center text-sm text-muted-foreground">
+          No posts yet.
         </div>
       </Section>
 
@@ -174,20 +155,6 @@ function Index() {
         </div>
       </section>
 
-      {/* Partners */}
-      <Section>
-        <div className="text-center">
-          <Eyebrow>Trusted partners</Eyebrow>
-          <h2 className="mt-4 text-balance text-2xl font-semibold text-muted-foreground md:text-3xl">Working alongside governments, NGOs, and technology leaders.</h2>
-        </div>
-        <div className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-3 lg:grid-cols-6">
-          {["Ministry of ICT", "Safaricom", "UNDP", "World Bank", "Microsoft", "Huawei"].map((p) => (
-            <div key={p} className="flex h-24 items-center justify-center bg-card px-4 text-center font-display text-sm font-semibold text-muted-foreground">
-              {p}
-            </div>
-          ))}
-        </div>
-      </Section>
 
       {/* CTA */}
       <section className="border-t border-border bg-secondary">

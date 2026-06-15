@@ -16,9 +16,9 @@ export const Route = createFileRoute("/get-involved")({
 });
 
 const donate = [
-  { icon: Smartphone, title: "Mobile Money", desc: "M-Pesa Paybill: 123456 · Account: DTEI" },
-  { icon: CreditCard, title: "Bank Transfer", desc: "Equity Bank · Acct 0123456789 · DTEI Kenya" },
-  { icon: Globe, title: "International", desc: "SWIFT / Wise / PayPal — contact us for details" },
+  { icon: Smartphone, title: "Mobile Money", desc: "Donate via mobile money with details available on request." },
+  { icon: CreditCard, title: "Bank Transfer", desc: "Bank transfer information is available when you reach out to us." },
+  { icon: Globe, title: "International", desc: "Contact us for international donation options." },
 ];
 
 function GetInvolved() {

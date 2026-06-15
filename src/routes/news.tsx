@@ -19,15 +19,6 @@ export const Route = createFileRoute("/news")({
   component: News,
 });
 
-const posts = [
-  { img: devicesImg, tag: "Devices", title: "500 refurbished smartphones distributed in Kisumu", date: "May 2026" },
-  { img: entrepreneurImg, tag: "Mentorship", title: "How Amina built her tailoring business on M-Pesa", date: "April 2026" },
-  { img: programsImg, tag: "Training", title: "New community digital hub opens in Machakos", date: "March 2026" },
-  { img: devicesImg, tag: "Awareness", title: "Five digital hygiene habits every new user should adopt", date: "Feb 2026" },
-  { img: programsImg, tag: "Policy", title: "Joining the national conversation on digital inclusion", date: "Jan 2026" },
-  { img: entrepreneurImg, tag: "Stories", title: "From learner to trainer: Brian's journey", date: "Dec 2025" },
-];
-
 const downloads = [
   { title: "DTEI Concept Paper (Draft)", type: "PDF · Draft", href: `${publicBase}DTEI-CONCEPT_PAPER-Draft.pdf` },
   { title: "DTEI Annual Report 2025", type: "PDF · 4.2 MB" },
@@ -43,19 +34,8 @@ function News() {
       <Section>
         <Eyebrow>Blog</Eyebrow>
         <h2 className="mt-4 max-w-3xl text-balance text-3xl font-bold tracking-tight md:text-4xl">Latest articles.</h2>
-        <div className="mt-12 grid gap-6 lg:grid-cols-3">
-          {posts.map((p) => (
-            <article key={p.title} className="group overflow-hidden rounded-xl border border-border bg-card transition-all hover:-translate-y-1 hover:shadow-soft">
-              <img src={p.img} alt={p.title} loading="lazy" width={1280} height={800} className="aspect-[16/10] w-full object-cover transition-transform duration-500 group-hover:scale-105" />
-              <div className="p-5">
-                <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                  <span className="rounded-full bg-accent/20 px-2.5 py-0.5 font-semibold uppercase tracking-wider text-accent-foreground">{p.tag}</span>
-                  <span>{p.date}</span>
-                </div>
-                <h3 className="mt-3 font-display text-lg font-semibold leading-snug">{p.title}</h3>
-              </div>
-            </article>
-          ))}
+        <div className="mt-12 rounded-2xl border border-border bg-card p-8 text-center text-sm text-muted-foreground">
+          No posts yet.
         </div>
       </Section>
       <section className="border-t border-border bg-secondary">

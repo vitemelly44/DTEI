@@ -32,10 +32,7 @@ const anchors = [
 ];
 
 const team = [
-  { name: "Dr. Wanjiru Kamau", role: "Executive Director", initials: "WK" },
-  { name: "Samuel Otieno", role: "Programs Lead", initials: "SO" },
-  { name: "Fatuma Ali", role: "Partnerships Director", initials: "FA" },
-  { name: "Brian Mwangi", role: "Head of Operations", initials: "BM" },
+  { name: "Newton Karaba", role: "CEO", initials: "NK" },
 ];
 
 function About() {

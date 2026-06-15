@@ -22,8 +22,8 @@ function Contact() {
         <div className="grid gap-12 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div className="space-y-6">
-              <ContactRow icon={Phone} title="Phone" value="+254 700 000 000" />
-              <ContactRow icon={Mail} title="Email" value="hello@dtei.org" />
+              <ContactRow icon={Phone} title="Phone" value="+254726721421" />
+              <ContactRow icon={Mail} title="Email" value="info@dtei.org" />
               <ContactRow icon={MapPin} title="Office" value="Westlands, Nairobi, Kenya" />
             </div>
             <div className="mt-8 overflow-hidden rounded-xl border border-border">

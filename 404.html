@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DTEI — Digital Techwise Empowerment Initiative</title>
-    <link rel="icon" type="image/png" href="./logo.jpg" />
+    <title>Redirecting...</title>
+    <script>
+      var path = window.location.pathname.substr(1);
+      var segments = path.split('/');
+      var pathSegmentsToKeep = 1;
+      var basePath = '/' + segments.slice(0, pathSegmentsToKeep).join('/') + '/';
+      var redirectPath = segments.slice(pathSegmentsToKeep).join('/');
+
+      if (redirectPath) {
+        redirectPath = '/' + redirectPath + window.location.search + window.location.hash;
+      } else {
+        redirectPath = '/';
+      }
+
+      window.location.replace(basePath + '?p=' + encodeURIComponent(redirectPath));
+    </script>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
-  </body>
+  <body></body>
 </html>

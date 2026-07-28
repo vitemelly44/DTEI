@@ -44,7 +44,8 @@ function Index() {
               <span className="bg-gradient-to-r from-[oklch(0.45_0.1_185)] to-[oklch(0.78_0.16_70)] bg-clip-text text-transparent">digital inclusion</span>.
             </h1>
             <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              We close the digital divide with skills training, refurbished devices, and community hubs — so every young person and woman can build a digital future.
+  We advance digital inclusion by equipping underserved youth and women in rural kenya with digital skills,tools,and resources so every young person and woman can build a digital future.
+
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/get-involved" className="inline-flex items-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-semibold text-background shadow-elegant transition-transform hover:-translate-y-0.5">

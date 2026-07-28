@@ -39,7 +39,7 @@ function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         <div className="grid gap-12 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div className="space-y-6">
-              <ContactRow icon={Phone} title="Phone" value="+254726721421" />
+              <ContactRow icon={Phone} title="Phone" value="+254736382929" />
               <ContactRow icon={Mail} title="Email" value="info@dtei.org" />
               <ContactRow icon={MapPin} title="Office" value="Westlands, Nairobi, Kenya" />
             </div>

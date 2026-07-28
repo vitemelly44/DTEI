@@ -24,9 +24,9 @@ const metrics = [
 ];
 
 const cases = [
-  { img: entrepreneurImg, name: "Amina, 24", county: "Kisumu", story: "Launched a tailoring business using a refurbished smartphone and M-Pesa — now employs three other women." },
-  { img: devicesImg, name: "Joseph, 19", county: "Machakos", story: "Completed our advanced digital skills track and works remotely as a junior data entry specialist." },
-  { img: programsImg, name: "Nakuru Hub", county: "Nakuru", story: "Our hub trained 180 community members in one quarter — and is now community-led." },
+  { img: entrepreneurImg, name: "Amina, 24", county: "Isiolo", story: "Launched a tailoring business using a refurbished smartphone and M-Pesa — now employs three other women." },
+  { img: devicesImg, name: "Joseph, 19", county: "Makueni", story: "Completed our advanced digital skills track and works remotely as a junior data entry specialist." },
+  { img: programsImg, name: "Nakuru Hub", county: "Nakuru", story: "Our government owned hub trained 180 community members in one quarter  and is now community-led." },
 ];
 
 function Impact() {

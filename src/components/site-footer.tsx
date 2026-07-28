@@ -9,8 +9,8 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-4 lg:px-8">
         <div className="lg:col-span-1">
           <div className="flex items-center gap-2.5">
-            <img src={`${publicBase}logo.jpg`} alt="DTEI logo" className="h-9 w-9 rounded-md object-cover" />
-            <span className="font-display text-base font-bold">DTEI</span>
+            <img src={`${publicBase}logo.jpg`} alt="DTEI logo" className="h-14 w-14 rounded-md object-cover" />
+            <span className="font-display text-base font-bold">DIGITAL TECHWISE EMPOWERMENT INITIATIVE</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-primary-foreground/70">
             Digital Techwise Empowerment Initiative — bridging the digital divide for youth and women across Kenya and beyond.

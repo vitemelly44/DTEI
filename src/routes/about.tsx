@@ -15,12 +15,12 @@ export const Route = createFileRoute("/about")({
 });
 
 const values = [
-  { icon: ShieldCheck, title: "Integrity", desc: "We operate honestly and fairly in every partnership and program." },
-  { icon: Heart, title: "Passion", desc: "We bring energy and care to every learning experience and community project." },
-  { icon: Sparkles, title: "Dedication", desc: "We stay committed to impact, even when the challenges are hardest." },
-  { icon: Sprout, title: "Teamwork", desc: "We collaborate closely with communities, learners, and partners to achieve shared goals." },
-  { icon: Lightbulb, title: "Innovation", desc: "We continuously test new solutions that expand access and opportunity." },
-  { icon: ShieldCheck, title: "Accountability", desc: "We measure progress, learn from results, and answer openly for our outcomes." },
+  { icon: ShieldCheck, title: "Integrity", desc: "We steward resources responsibly, protect participant data, and report outcomes with absolute honesty to build lasting trust with our partners and communities." },
+  { icon: Heart, title: "Passion", desc: "Driven by a belief in digital equality, we bring relentless energy to empowering Kenyan youth and women to succeed in the modern economy." },
+  { icon: Sparkles, title: "Dedication", desc: "We stay the course—working through systemic barriers, connectivity challenges, and complex environments to ensure long-term, meaningful impact." },
+  { icon: Sprout, title: "Teamwork", desc: "We co-create solutions alongside communities, government partners, and donors, knowing that digital inclusion requires a unified ecosystem." },
+  { icon: Lightbulb, title: "Innovation", desc: "We adapt technology and learning models to fit local realities, ensuring our tools remain accessible, practical, and effective." },
+  { icon: ShieldCheck, title: "Accountability", desc: "We hold ourselves accountable to high standards, measuring success through sustained livelihoods, digital confidence, and real-world results." },
 ];
 
 const anchors = [
@@ -32,7 +32,11 @@ const anchors = [
 ];
 
 const team = [
-  { name: "Newton Karaba", role: "CEO", initials: "NK" },
+  { name: "Frida Mutuma", role: "Founder & Chairperson of Board", initials: "FM" },
+  { name: "Benjamin Magerer", role: "Vice Chairperson", initials: "BM" },
+  { name: "Priscillah Njaraganu", role: "Country Programs Director", initials: "PN" },
+  { name: "Rebeccah Nkatha", role: "Director, Youth", initials: "RN" },
+  { name: "Newton Karaba", role: "Chief Executive Officer & Secretary to the Board", initials: "NK" },
 ];
 
 function About() {

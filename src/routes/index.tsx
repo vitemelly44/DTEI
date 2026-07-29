@@ -120,7 +120,7 @@ function Index() {
           <img src={programsImg} alt="Youth learning together at a community digital hub" loading="lazy" width={1280} height={896} className="aspect-[4/3] w-full rounded-2xl object-cover shadow-soft" />
           <div>
             <Eyebrow>Why it matters</Eyebrow>
-            <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">A laptop, a skill, a stream of income — that's how digital divides close.</h2>
+            <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight md:text-4xl">Digital access, a skill, a stream of income — that's how digital divides close.</h2>
             <p className="mt-5 text-pretty text-base leading-relaxed text-muted-foreground">
               Across underserved communities, lack of access to devices, connectivity, and skills cuts millions off from opportunity. DTEI delivers the three together — putting tools in hands, knowledge in minds, and confidence in voices.
             </p>
@@ -152,7 +152,7 @@ function Index() {
           <p className="mt-6 text-balance font-display text-2xl font-medium leading-snug md:text-3xl lg:text-4xl">
             "Before DTEI, I had never opened an email. Today I run my online shop, pay school fees, and teach my neighbours."
           </p>
-          <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-accent">Mary W. — Beneficiary, Nakuru County</p>
+          <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-accent">Linda Niserian. — Beneficiary, Laikipia County</p>
         </div>
       </section>
 

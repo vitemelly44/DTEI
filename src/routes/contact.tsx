@@ -41,12 +41,12 @@ function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
             <div className="space-y-6">
               <ContactRow icon={Phone} title="Phone" value="+254736382929" />
               <ContactRow icon={Mail} title="Email" value="info@dtei.org" />
-              <ContactRow icon={MapPin} title="Office" value="Westlands, Nairobi, Kenya" />
+              <ContactRow icon={MapPin} title="Office" value="Karen, Nairobi, Kenya" />
             </div>
             <div className="mt-8 overflow-hidden rounded-xl border border-border">
               <iframe
                 title="DTEI office location"
-                src="https://www.google.com/maps?q=Westlands,Nairobi&output=embed"
+                src="https://www.google.com/maps?q=Karen,Nairobi&output=embed"
                 className="h-72 w-full"
                 loading="lazy"
               />

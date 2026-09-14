@@ -6,7 +6,7 @@ const objectives = [
     icon: Leaf,
     title: "Digitalization Sustainability",
     description:
-      "Promoting efficiency and sustainable digitalization and digitization through Green Energy initiatives. This spans Sustainability of Technology—reducing the environmental footprint of digital infrastructure—and Sustainability by Technology—using digital tools to drive broader sustainability and efficiency outcomes.",
+      "Promoting efficiency and sustainable digitalization and digitization through Green Energy initiatives. This spans Sustainability of Technologyr educing the environmental footprint of digital infrastructure—and Sustainability by Technology—using digital tools to drive broader sustainability and efficiency outcomes.",
   },
   {
     icon: MonitorSmartphone,
@@ -33,12 +33,12 @@ export function ObjectivesSection() {
     <section className="border-y border-border bg-secondary">
       <Section>
         <Eyebrow>Our Objectives</Eyebrow>
-        <h2 className="mt-4 max-w-3xl text-balance text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 className="mt-4 max-w-3xl text-balance text-3xl font-bold tracking tight md:text-4xl">
           The outcomes we work toward so digital opportunity reaches every community.
         </h2>
         <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {objectives.map(({ icon: Icon, title, description }) => (
-            <article key={title} className="rounded-2xl border border-border bg-card p-6 shadow-soft transition-transform hover:-translate-y-1">
+            <article key={title} className="rounded-2xl border border-border bg card p-6 shadow soft transition transform hover: translate-y-1">
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-gradient-hero text-primary-foreground">
                 <Icon className="h-5 w-5" />
               </div>

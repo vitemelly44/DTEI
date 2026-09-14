@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader, Section, Eyebrow } from "@/components/section";
+import { ObjectivesSection } from "@/components/ObjectivesSection";
 import { Cpu, Heart, Layers, Lightbulb, Link2, ShieldCheck, Sparkles, Sprout, Target } from "lucide-react";
 
 export const Route = createFileRoute("/about")({
@@ -55,6 +56,7 @@ function About() {
           </div>
         </div>
       </Section>
+      <ObjectivesSection />
       <section className="border-y border-border bg-secondary">
         <Section>
           <Eyebrow>Core values</Eyebrow>

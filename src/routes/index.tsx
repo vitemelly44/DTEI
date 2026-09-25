@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
-import { ArrowRight, GraduationCap, Shield, Smartphone, Sparkles, Users, Quote } from "lucide-react";
+import { ArrowRight, GraduationCap, Leaf, Shield, Smartphone, Sparkles, Users, Quote } from "lucide-react";
 import heroImg from "@/assets/hero.jpg";
 import programsImg from "@/assets/programs.jpg";
 import { Section, Eyebrow } from "@/components/section";
@@ -28,6 +28,7 @@ const programs = [
   { icon: GraduationCap, title: "Digital Literacy Training", desc: "Foundational and advanced digital skills for everyday life, study, and work." },
   { icon: Shield, title: "Digital Hygiene Awareness", desc: "Online safety, privacy, and responsible use of digital tools and platforms." },
   { icon: Smartphone, title: "Device Access Program", desc: "Refurbished smartphones distributed to youth and women who need them most." },
+  { icon: Leaf, title: "Digitization Sustainability", desc: "Promoting greener digital practices and sustainable technology use that reduces environmental impact while improving efficiency." },
   { icon: Sparkles, title: "Entrepreneurship Mentorship", desc: "Business mentorship and digital finance education to launch local enterprises." },
 ];
 

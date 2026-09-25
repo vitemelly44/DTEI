@@ -6,7 +6,7 @@ const objectives = [
     icon: Leaf,
     title: "Digitalization Sustainability",
     description:
-      "Promoting efficiency and sustainable digitalization and digitization through Green Energy initiatives. This spans Sustainability of Technologyr educing the environmental footprint of digital infrastructure and Sustainability by Technology using digital tools to drive broader sustainability and efficiency outcomes.",
+      "Promoting efficiency and sustainable digitalization and digitization through Green Energy initiatives. This spans Sustainability of Technology reducing the environmental footprint of digital infrastructure and Sustainability by Technology using digital tools to drive broader sustainability and efficiency outcomes.",
   },
   {
     icon: MonitorSmartphone,
